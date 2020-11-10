@@ -16,7 +16,9 @@ const Secrets = {
     FruitShareCodes: process.env.FruitShareCodes, //京东农场分享码
     Unsubscribe: process.env.UNSUBSCRIBE, //取关商铺
     SUPERMARKET_UPGRADE: process.env.SUPERMARKET_UPGRADE, //京小超自动升级
+    SUPERMARKET_LOTTERY: process.env.SUPERMARKET_LOTTERY, //京小超抽奖
     FRUIT_BEAN_CARD: process.env.FRUIT_BEAN_CARD, //农场使用水滴换豆卡
+    MARKET_COIN_TO_BEANS: process.env.MARKET_COIN_TO_BEANS, //京小超兑换京豆数量
 };
 
 async function changeFiele() {
