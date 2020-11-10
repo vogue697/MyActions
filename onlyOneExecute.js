@@ -19,6 +19,7 @@ const Secrets = {
     SUPERMARKET_LOTTERY: process.env.SUPERMARKET_LOTTERY, //京小超抽奖
     FRUIT_BEAN_CARD: process.env.FRUIT_BEAN_CARD, //农场使用水滴换豆卡
     MARKET_COIN_TO_BEANS: process.env.MARKET_COIN_TO_BEANS, //京小超兑换京豆数量
+    BUSINESS_CIRCLE_JUMP: process.env.BUSINESS_CIRCLE_JUMP, //京小超自动更换商圈
 };
 
 async function changeFiele() {
