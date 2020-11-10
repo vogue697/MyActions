@@ -15,6 +15,8 @@ const Secrets = {
     JoyFeedCount: process.env.JDJoyFeedCount, //宠汪汪喂食数量
     FruitShareCodes: process.env.FruitShareCodes, //京东农场分享码
     Unsubscribe: process.env.UNSUBSCRIBE, //取关商铺
+    SUPERMARKET_UPGRADE: process.env.SUPERMARKET_UPGRADE, //京小超自动升级
+    FRUIT_BEAN_CARD: process.env.FRUIT_BEAN_CARD, //农场使用水滴换豆卡
 };
 
 async function changeFiele() {
