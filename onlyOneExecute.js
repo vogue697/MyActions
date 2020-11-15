@@ -20,6 +20,12 @@ const Secrets = {
     FRUIT_BEAN_CARD: process.env.FRUIT_BEAN_CARD, //农场使用水滴换豆卡
     MARKET_COIN_TO_BEANS: process.env.MARKET_COIN_TO_BEANS, //京小超兑换京豆数量
     BUSINESS_CIRCLE_JUMP: process.env.BUSINESS_CIRCLE_JUMP, //京小超自动更换商圈
+    SUPERMARKET_LOTTERY: process.env.SUPERMARKET_LOTTERY, //京小超抽奖
+    FRUIT_BEAN_CARD: process.env.FRUIT_BEAN_CARD, //农场使用水滴换豆卡
+    UN_SUBSCRIBES: process.env.UN_SUBSCRIBES, //取关店铺
+    JOY_FEED_COUNT: process.env.JOY_FEED_COUNT, //cokie,宠汪汪喂食数量
+    JOY_HELP_FEED: process.env.JOY_HELP_FEED, //宠汪汪帮好友喂食
+    JOY_RUN_FLAG: process.env.JOY_RUN_FLAG, //宠汪汪参加双人赛跑
 };
 
 async function changeFiele() {
