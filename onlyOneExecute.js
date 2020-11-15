@@ -26,6 +26,22 @@ const Secrets = {
     JOY_FEED_COUNT: process.env.JOY_FEED_COUNT, //cokie,宠汪汪喂食数量
     JOY_HELP_FEED: process.env.JOY_HELP_FEED, //宠汪汪帮好友喂食
     JOY_RUN_FLAG: process.env.JOY_RUN_FLAG, //宠汪汪参加双人赛跑
+     BARK_PUSH: process.env.BARK_PUSH, //Bark推送
+    TG_BOT_TOKEN: process.env.TG_BOT_TOKEN, //TGBot推送Token
+    TG_USER_ID: process.env.TG_USER_ID, //TGBot推送成员ID
+    MarketCoinToBeanCount: process.env.JDMarketCoinToBeans, //京小超蓝币兑换京豆数量
+    JoyFeedCount: process.env.JDJoyFeedCount, //宠汪汪喂食数量
+    FruitShareCodes: process.env.FruitShareCodes, //京东农场分享码
+    Unsubscribe: process.env.UNSUBSCRIBE, //取关商铺
+    JOY_FEED_COUNT: process.env.JOY_FEED_COUNT, //cokie,宠汪汪喂食数量
+    JOY_HELP_FEED: process.env.JOY_HELP_FEED, //宠汪汪帮好友喂食
+    JOY_RUN_FLAG: process.env.JOY_RUN_FLAG, //宠汪汪参加双人赛跑
+    MARKET_COIN_TO_BEANS: process.env.MARKET_COIN_TO_BEANS, //京小超兑换京豆数量
+    SUPERMARKET_UPGRADE: process.env.SUPERMARKET_UPGRADE, //京小超自动升级
+    BUSINESS_CIRCLE_JUMP: process.env.BUSINESS_CIRCLE_JUMP, //京小超自动更换商圈
+    SUPERMARKET_LOTTERY: process.env.SUPERMARKET_LOTTERY, //京小超抽奖
+    FRUIT_BEAN_CARD: process.env.FRUIT_BEAN_CARD, //农场使用水滴换豆卡
+    UN_SUBSCRIBES: process.env.UN_SUBSCRIBES, //取关店铺
 };
 
 async function changeFiele() {
